@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{56EB8A07D576222C}FF_Bitcoin/Imagesets/Miner.edds"
+ Author "desktop-0cr81jo"
+ ChangeDate 116092475
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "Miner.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

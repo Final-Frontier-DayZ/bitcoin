@@ -1,0 +1,50 @@
+ImageSetClass {
+ Name "Miner"
+ RefSize 1024 1024
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{56EB8A07D576222C}FF_Bitcoin/Imagesets/Miner.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass CPU {
+   Name "CPU"
+   Pos 0 -1
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass HDD {
+   Name "HDD"
+   Pos 256 0
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass RAM {
+   Name "RAM"
+   Pos 512 0
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass GPU {
+   Name "GPU"
+   Pos 768 0
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass PSU {
+   Name "PSU"
+   Pos 0 256
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass Fan {
+   Name "Fan"
+   Pos 256 256
+   Size 256 256
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}
